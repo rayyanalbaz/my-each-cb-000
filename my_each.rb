@@ -4,5 +4,5 @@ def my_each(array) # put argument(s) here
   while array.size > i do
     put "#{array[i]}"
     i++
-end
+
 end
