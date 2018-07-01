@@ -2,7 +2,7 @@ def my_each(array) # put argument(s) here
   # code here
   i = 0
   while i < array.lenght
-   return "#{array[i]}"
+   yeild array[i]
     i = i + 1
   end
 end
